@@ -1,0 +1,140 @@
+@import url(//db.onlinewebfonts.com/c/4124a6204d35abaf22db32c19d62d73e?family=Insaniburger);
+@font-face {font-family: "Insaniburger"; src: url("//db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.eot"); src: url("//db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.woff") format("woff"), url("//db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/4124a6204d35abaf22db32c19d62d73e.svg#Insaniburger") format("svg"); }
+
+nav{
+    background-color: #ED7800;
+    font-family: Insaniburger;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    /*vertically center items */
+    display: flex;
+    align-items: center; 
+}
+
+.nav-btn {
+    background-color: #ED7800;
+    border: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+    margin-left: 2.5px;
+  }
+
+.logo{
+    width: 70px;
+    height: auto;
+}
+
+.nav-link{
+    color: white;
+    font-size: 2.0rem;
+    text-decoration: none;
+    /*each element named nav-link will have a margin of 30px*/
+    margin-left: 20px;
+
+}
+
+.nav-link:hover{
+    color: #802629;
+}
+.main-img{
+    width: 100%;
+}
+
+.aboutus-title {
+    background-color: #2D2D2D;
+    color: white;
+    font-size: 50px;
+    font-family:Insaniburger;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-size: 40px;
+    font-family: Insaniburger;
+    color: #2D2D2D;
+}
+
+.aboutus-contents{
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.contents{
+    text-align: center;
+    padding: 60px 300px 0px 300px;
+    /* redundant
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 300px;
+    padding-right: 300px;
+    */
+    background-color: white;
+    font-weight: lighter;
+    }
+.capital-link{
+    text-decoration:none;
+    color: black;
+}
+
+.btn {
+    background-color: #2D2D2D;
+    border: none;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+footer{
+    background-color: #2D2D2D;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: .75rem;
+    font-weight: lighter;
+    margin: 0px;
+}
+
+.share-heading{
+    padding-left: .4rem;
+}
+
+.footer-item{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-left{
+    float: left;
+}
+
+.footer-right{
+    float: right;
+}
+
+.fry-bg{
+    width: 100%
+}
+
+body{
+    margin: 0px;
+}
+
+footer{
+    font-family: Arial;
+}
+
+.bk-title{
+    font-family:Insaniburger;
+    font-size: 2rem;
+}
+
+main{
+    margin:0px;
+}

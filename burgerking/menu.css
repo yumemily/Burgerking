@@ -1,0 +1,120 @@
+.menu-title{
+    font-size: 3rem;
+    color: #8C552F;
+    border-bottom: 2px solid currentColor;
+    display: inline-block;
+    line-height: 0.85;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+.row{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.burger-link:hover{
+    transform: scale(1.3);
+    transition: transform .5s ease;
+}
+.menu-img{
+    width: 17.5rem;
+}
+
+.menu-img:hover{
+    transform: scale(1.3);
+    transition: transform .5s ease;
+}
+
+.burger-title{
+    font-size: 2rem;
+    color: #8B542F;
+    text-decoration: none;
+    text-align: center;
+}
+
+.chicken-title{
+    font-size: 2rem;
+    color: #ED7800;
+}
+
+.salad-title{
+    font-size: 2rem;
+    color: #59980C;
+}
+
+.breakfast-title{
+    font-size: 2rem;
+    color: #EE8324;
+}
+
+.beverages-title{
+    font-size: 2rem;
+    color: #A1007D;
+}
+
+.coffee-title{
+    font-size: 2rem;
+    color: #F36279;
+}
+
+.sides-title{
+    font-size: 2rem;
+    color: #F5A800;
+}
+
+.sweets-title{
+    font-size: 2rem;
+    color: #0071CE;
+}
+
+.jr-title{
+    font-size: 2rem;
+    color: #92C0E9;
+}
+
+.value-title{
+    font-size: 2rem;
+    color: #AB182D;
+}
+
+section{
+    text-align: center;
+}
+
+.googlemap-area{
+    background-color:white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.card{
+    background-color:white;
+    border-style: solid;
+    border-radius: 30px;
+    border-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+body{
+    font-family:Insaniburger;
+}
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2D2D2D;
+}
+
+.fry-bg{
+    width:100%;
+}
+
+.bk-title{
+    font-family:Insaniburger;
+    font-size: 2rem;
+}
