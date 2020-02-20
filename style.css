@@ -5,12 +5,24 @@ nav{
     background-color: #ED7800;
     font-family: Insaniburger;
     padding-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-
-    /*vertically center items */
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
-    align-items: center; 
+    align-items: center;
+}
+
+.nav-push{
+    display:-webkit-flex;
+    display:flex;
+    list-style-type:none;
+    padding-right:2rem;
+    justify-content:flex-end;
+}
+
+.nav-box{
+    margin-right:auto;
+    display: flex;
+    align-items: center;
 }
 
 .nav-btn {
@@ -19,7 +31,7 @@ nav{
     color: white;
     font-size: 35px;
     cursor: pointer;
-    margin-left: 2.5px;
+    margin-left: .25rem;
   }
 
 .logo{
@@ -31,8 +43,7 @@ nav{
     color: white;
     font-size: 2.0rem;
     text-decoration: none;
-    /*each element named nav-link will have a margin of 30px*/
-    margin-left: 20px;
+    margin-left: 2rem;
 
 }
 
